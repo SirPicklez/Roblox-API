@@ -1,0 +1,1 @@
+function Tween(Object,Speed,Position) game:GetService("TweenService"):Create(Object, TweenInfo.new(Speed), {Position = Position}):Play() end
